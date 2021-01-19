@@ -1,7 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
 font-family: 'Montserrat', sans-serif;
-}
-.navigation{
-  background-color: #ec4646;
 
+}
+nav{
+  background-color: #ec4646;
+ color: #f0f0f0;
+ padding:3% 7%;
+ margin: 0 0 30px 0;
+ border-radius: 0 0 1rem 1rem;
+
+}
+.nav-brandName{
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+.nav-link{
+  color: #fafafa;
+  padding: 0.5rem 1em;
+}
+li{
+  display:  inline;
+}
+ .navigation ul{
+  text-align: right;
+  display: inline;
+  position: absolute;
+  right: 5%;
+}
+.hero-img{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+header{
+  text-align: center;
+  padding: 3% 15%;
+  margin:2%;
+
+}
+.hero-title{
+color: #ec4646;
+
+}
+section{
+  padding: 3% 15%;
+}
+.Technologies,.blogs{
+  background-color: #e6e6e6;
 }
