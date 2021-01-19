@@ -62,12 +62,19 @@ section{
 .Technologies p ,.Technologies ol{
   padding-left: 20px;
 }
-.projects a, .blogs a{
+.primary-button{
   padding: 1% 5%;
   border: solid 2px  #ec4646;
 background-color: #ec4646;
 border-radius: .5rem;
   color:#fafafa;
+  text-align: left;
+}
+.secondary-button{
+  padding: 1% 5%;
+  border: solid 2px  #ec4646;
+border-radius: .5rem;
+  color:#ec4646;
   text-align: left;
 }
 footer{
@@ -80,4 +87,7 @@ footer{
   display: inline;
 
   padding:0 .5rem;
+}
+.projects-sec,.blogs-sec{
+  margin:2%;
 }
