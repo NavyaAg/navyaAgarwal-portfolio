@@ -92,3 +92,6 @@ footer{
 .projects-sec,.blogs-sec{
   margin:2%;
 }
+.blog-text{
+  text-align: left;
+}
