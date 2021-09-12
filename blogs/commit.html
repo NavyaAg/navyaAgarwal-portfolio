@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Commit messages|Navya</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav>
+    <div class="conatiner-fluid navigation">
+      <h1 class="nav-brandName"> <span>Navya</span></h1>
+      <ul>
+        <span>
+          <li><a class="nav-link" href="../index.html">Home</a></li>
+          <li><a class="nav-link" href="../projects.html">Projects</a></li>
+          <li><a class="nav-link" href="../blogs.html">Blog</a></li>
+        </span>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <img class="hero-img" src="../images/git_commit.png" alt="">
+    <h1>How to write good commit messsages ?</h1>
+    <p class="blog-text"><b>Having reached till Mark 15, </b>I noticed that I wasn’t efficient at passing good commit messages . They were either very vague or comprised several changes in one commit. As beginners we often tend to overlook these things but a good commit message is as important as the code. This blog tries to cover some conventional commit practices that we should follow.</p>
+  <h3>Why good commit message matter?</h3>
+  <ul>
+      <li>
+          <p class="blog-text"><b>It adds clarity to pull requests (PRs) raised- </b>Most projects involve multiple people/teams working on different features. Each entity generally works on their local branch, which they rebase with the master at regular intervals. In such cases, having a broad idea of the code changes implemented by other collaborators via proper commit messages can save a lot of developer time spent in cross-communication.</p>
+      </li>
+      <li>
+          <p class="blog-text"><b>It is key to effective debugging -</b>Let’s say there’s a bug in the application which was not there before. To find out what caused the problem, reading the commit messages could be handy. The proper commit message can save a great deal of time finding the recent changes related to a bug.</p>
+      </li>
+      <li>
+          <p class="blog-text"><b>It makes a code more readable and reusable-</b>If we have a task to add some logic to some part of the code, previous good commit messages can help us find out where and how to add the code.</p>
+      </li>
+      <li>
+          <p class="blog-text"><b>Makes tracking an implementation easier</b></p>
+      </li>
+      <li>
+          <p class="blog-text"><b>Provide context to the code reviewer -</b>A good commit message provides basic information to the reviewer about what the commit achieves, without them needing to dive into the code. </p>
+      </li>
+      <li>
+          <p class="blog-text"><b>Help in maintaining a feature log-</b>While writing release notes before shipping, developers can often quickly look at the history of commit messages to have a broad idea of the features added/removed/modified since the last release.</p>
+      </li>
+  </ul>
+  <br>
+      <hr>
+      <br>
+
+  <h3>What is a good commit message ?</h3>
+  <ul>
+      <p class="blog-text">The perfect commit message should have certain qualities:</p>
+      <li>
+          <p class="blog-text"><b>	It should be understandable </b>even by seeing only the header of the message</p>
+      </li>
+      <li>
+          <p class="blog-text"><b>	Separate different changes to different commits-</b>This is where I made major mistake. Because I forgot committing changes after every new functionality added , my messages often looked like-“js features added”</p>
+      </li>
+      <li>
+          <p class="blog-text"><b>Should be reasonably small and atomic.</b>It should be just enough, and not too detailed. </p>
+      </li>
+      <li>
+          <p class="blog-text"><b>	It should be unambiguous.-</b>The commit message should describe what changes our commit makes to the behavior of the code, not what changed in the code. </p>
+      </li>
+      <li>
+          <p class="blog-text"><b>	Use the imperative, present tense - </b>It is easier to read and scan quickly: </p>
+          <code>Right: Add feature to alert admin for new user registration  </code>
+          <br>
+          <br>
+            <code> Wrong: Added feature ... (past tense)</code>
+      </li>
+    </ul>
+      <br>
+      <hr>
+      <br>
+      <p class="blog-text">Let’s now have a look at Conventional Commits Formats.</p>
+     <h3>Formatting</h3>
+     <code>
+        type: subject <br><br>
+        body (optional) <br><br>     
+        footer (optional)     
+     </code>
+     <ol>
+         <li class="blog-text" ><b>Type</b>
+            <ul><br>
+             <li ><code>feat</code>- a new feature</li><br>
+             <li ><code>fix</code>- a bug fix</li><br>
+             <li ><code>docs</code>- changes in documentation</li><br>
+             <li><code>style</code>- everything related to styling</li><br>
+             <li><code>refactor</code>- code changes that neither fixes a bug or adds a feature</li><br>
+             <li><code>test</code>- everything related to testing</li><br>
+             <li><code>chore</code>- updating build tasks, package manager configs, etc</li><br>
+         </ul></li>
+         <li class="blog-text" ><b>Subject</b>
+        <p class="blog-text">This contains a short description of the changes made. It shouldn't be greater than 50 characters.</p></li>
+         <li class="blog-text"><b>Body</b>
+        <p class="blog-text">The body is used to explain what changes you made and why you made them. Not all commits are complex enough that they need a body, especially if you are working on a personal project alone, and as such writing a body is optional.
+            A blank line between the body and the subject is required and each line should have no more than 72 characters.
+            </p></li>      
+     </ol>
+     <p class="blog-text">There are several conventions used by different teams but this is by far most commonly used . </p>
+  
+
+  </header>
+  <footer>
+    <div class="icons">
+      <ul>
+        <li><a href="https://www.instagram.com/navya_544/"><i class="fab fa-instagram"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/navya-agarwal-857204220/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://twitter.com/itsNavya"><i class="fab fa-twitter"></i></a></li> 
+        <li><a href="https://github.com/NavyaAg"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </div>
+    <p>&#169;Navya</p>
+  </footer>
+</body>
+
+</html>

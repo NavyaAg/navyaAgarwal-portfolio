@@ -89,6 +89,11 @@ footer{
 
   padding:0 .5rem;
 }
+i{
+  font-size: 32px;
+  color:black;
+  margin: 0.5rem;
+}
 .projects-sec,.blogs-sec{
   margin:2%;
 }
@@ -107,4 +112,12 @@ footer{
   display: block;
   margin: 1rem auto;
   text-align: center;
+}
+
+code {
+  color: #3d455c;
+  font-size: large;
+  background-color: #eeeeee;
+  padding: 0.25rem;
+  text-align: left;
 }
