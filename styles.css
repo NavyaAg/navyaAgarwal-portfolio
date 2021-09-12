@@ -94,4 +94,17 @@ footer{
 }
 .blog-text{
   text-align: left;
+  font-weight:425;
+}
+
+.blog-link{
+  color:#ec4646;
+  
+}
+
+.blog-img{
+  max-width: 550px;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
 }
